@@ -47,7 +47,7 @@ public class BaoCao {
     }
 
     public void xuat() {
-        System.out.printf("== == == == ==\nMa bao cao: %s\nTen bao cao: %s\nLink bao cao: %s\nNgay bao cao: %s\nDanh sach sinh vien: %s\nTen giang vien: %s\nDiem: %.1f\n", this.maBaoCao, this.tenBaoCao, this.linkBaoCao, this.ngayBaoCao, this.dsSinhVien, this.tenGiangVien, this.diem);
+        System.out.printf("== == == == ==\nMa bao cao: %s\nTen bao cao: %s\nLink bao cao: %s\nNgay bao cao: %s\nDanh sach sinh vien: %s\nTen giang vien: %s\nDiem: %.1f\n", this.maBaoCao, this.tenBaoCao, this.linkBaoCao, F.format(this.ngayBaoCao), this.dsSinhVien, this.tenGiangVien, this.diem);
     }
 
     public String getMaBaoCao() {
